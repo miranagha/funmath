@@ -33,7 +33,7 @@ var mongoose = require('mongoose');
 
 //  const url = 'mongodb+srv://cluster0.bqkp4.mongodb.net/<Cluster0>?replicaSet=atlas-13h2j0-shard-0&w=majority&readPreference=primary&authSource=admin&appname=MongoDB%20Compass&retryWrites=true&ssl=true';
 // const url = 'mongodb://localhost:27017/mathfunapp';
-const url='mongodb://meerhama:iamheroho@cluster0-shard-00-00.bqkp4.mongodb.net:27017,cluster0-shard-00-01.bqkp4.mongodb.net:27017,cluster0-shard-00-02.bqkp4.mongodb.net:27017/<test>?ssl=true&replicaSet=atlas-13h2j0-shard-0&authSource=admin&retryWrites=true&w=majority';
+const url='mongodb+srv://magha001:Miran@123@funmath.mc3q2.mongodb.net/<funmathapp?retryWrites=true&w=majority';
 
 const connect = mongoose.connect(url, { useNewUrlParser: true });
 
